@@ -69,12 +69,12 @@
   Calcula de la velocidad:
 </h3>
 <ul>
-  <li> <lo>  <a  href= "https://trinket.io/python3/128ad3becf">Cálculo de la velocidad del eje de salida </a> </lo> </li>
+  <li> <lo onclick="openWindow('https://trinket.io/python3/128ad3becf')">  <a  href= "">Cálculo de la velocidad del eje de salida </a> </lo> </li>
   <img class="imagen-nav" src="./assets/ejesalida.jpg">
 </ul> 
 
 <ul>
-  <li> <lo>  <a  href= "https://trinket.io/python3/4a4fac0388"> Cálculo de la velocidad del último árbol </a> </lo> </li>
+  <li> <lo onclick="openWindow('https://trinket.io/python3/4a4fac0388')">  <a  href= ""> Cálculo de la velocidad del último árbol </a> </lo> </li>
   <img class="imagen-nav" src="./assets/arbol.png">
 </ul> 
 
@@ -82,7 +82,7 @@
   Calcula la relacion de relacion de transmision de velocidad:
 </h3>
 <ul>
-  <li> <lo>  <a  href= "https://trinket.io/python3/26f8efd320"> Cálculo de la relación de transmisión de velocidad total </a> </lo> </li>
+  <li> <lo onclick="openWindow('https://trinket.io/python3/26f8efd320')">  <a  href= ""> Cálculo de la relación de transmisión de velocidad total </a> </lo> </li>
   <img class="imagen-nav" src="./assets/velocidad.png">
 </ul> 
 
@@ -90,7 +90,7 @@
   Calculo de diametros:
 </h3>
 <ul>
-  <li> <lo>  <a  href= "https://trinket.io/python3/97c7c3799c"> Cálculo del diámetro de la polea de un tren de poleas </a> </lo> </li>
+  <li> <lo onclick="openWindow('https://trinket.io/python3/97c7c3799c')">  <a  href= ""> Cálculo del diámetro de la polea de un tren de poleas </a> </lo> </li>
   <img class="imagen-nav" src="./assets/dia.jpg">
 </ul> 
 
@@ -101,7 +101,7 @@
         style="display: none;">
         <h2  >Engranajes:</h2>
         <ul>         
-          <lo>  <a  href= "https://trinket.io/python3/fdfcca4fb9"> Simulacion de Velocidad de rotacion   </a> </lo>
+          <lo onclick="openWindow('https://trinket.io/python3/fdfcca4fb9')">  <a  href= ""> Simulacion de Velocidad de rotacion   </a> </lo>
           <img class="imagen-nav" src="./assets/engranaje 1.gif">
         </ul>  
         <br>
@@ -161,7 +161,7 @@
     
         <div>
         
-          <button class="boton2"> <a href="https://trinket.io/python3/0648df2918"> Calcular la velocidad del eje conducido  </button> </a>
+          <button class="boton2" onclick="openWindow('https://trinket.io/python3/0648df2918')"> <a href=""> Calcular la velocidad del eje conducido  </button> </a>
 
         </div>    
         </div>
@@ -188,7 +188,7 @@
         </p>
         <div>
         
-          <button class="boton3"> <a href="https://trinket.io/python3/8bd8d54743"> calcular la longitud de correa que se necesita: </button> </a>
+          <button class="boton3" onclick="openWindow('https://trinket.io/python3/8bd8d54743')" > <a > calcular la longitud de correa que se necesita: </button> </a>
         
         </div>
         </div>
@@ -229,7 +229,7 @@
           <br>
           Solución relación de transmisión del mecanismo i= 0.05 
       </p>
-          <button class="boton4"> <a href="https://trinket.io/python3/7655860308"> Ejercicio tren de poleas  </button> </a>
+          <button class="boton4" onclick="openWindow('https://trinket.io/python3/7655860308')"> Ejercicio tren de poleas  </button>
         </div>
         
         <h4 id="Transicion_circular"> a) La relacion de transmicion del mecanismo</h4>
@@ -293,7 +293,7 @@
             D=2R <br>
             d=2r </p>
             </h4>
-        <button class="boton3"> <a href="https://trinket.io/python3/3727f741a9"> Ejercicio de Potencia nominal por correa: </button> </a>
+        <button class="boton3" onclick="openWindow('https://trinket.io/python3/3727f741a9')">  Ejercicio de Potencia nominal por correa: </button> 
         <br> 
             <img src="fotos/12.jpg" alt="foto de eje_conducido " >
         
@@ -428,6 +428,9 @@
             : (document.getElementById(child.id).style.display = "none")
         }
     }
+    function openWindow (url){
+      window.open(url, "nombre de la ventana", "width=900, height=900")
+     }
 </script>
 
 </html>
