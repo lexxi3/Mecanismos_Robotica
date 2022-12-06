@@ -19,7 +19,7 @@
           <li onclick="changeRoute('Evaluaciones')" class="tab-item">
             Evaluaciones
           </li>
-          <li onclick="changeRoute('Equipo')" class="tab-item">EQUIPO</li>
+          <li onclick="changeRoute('Equipo')" class="tab-item"></li>
         </ul>
       </div>
     </div>
@@ -154,11 +154,19 @@
             <br />
             #L3 distancia entre los ejes de las poleas
           </p>
-          
-              <button class="boton3"> <a href="https://trinket.io/python3/8bd8d54743"> Calcular la longitud de correa que se necesita: </button> </a>
-            
-            </div>
-            
+          <div>
+            <button onclick="openWindow()">Calculo de la longitud de correa que se necesita </button>
+<script>
+  function openWindow(){
+    window.open('https://trinket.io/python3/128ad3becf');
+  }
+</script>
+            <!-- <button
+              class="boton3"
+              onclick="openWindow('https://trinket.io/python3/8bd8d54743')"
+            >
+              <a> calcular la longitud de correa que se necesita: </a>
+            </button> -->
           </div>
         </div>
 
