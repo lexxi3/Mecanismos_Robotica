@@ -39,50 +39,44 @@
             simultáneamente transmitiendo el movimiento desde el eje de entrada
             o motriz hasta el eje de salida o conducido mediante una correa.
             <h3>Calcula la relacion de transmision de velocidad:</h3>
-            
-            
+
+
           </ul>
 
           <h3>Calcula de la velocidad:</h3>
           <ul>
             <li>
-              <lo onclick="openWindow('https://trinket.io/python3/128ad3becf')">
+              <button class="boton1"> <a href="https://trinket.io/python/a99e59e2b1"> Calcular la relacion de transmision de velocidad </button> </a>
+
+              <!-- <lo onclick="openWindow('https://trinket.io/python3/128ad3becf')">
                 <a href="">Cálculo de la velocidad del eje de salida </a>
-              </lo>
+              </lo> -->
             </li>
             <img class="imagen-nav" src="./assets/ejesalida.jpg" />
           </ul>
 
           <ul>
-            <li>
-              <lo onclick="openWindow('https://trinket.io/python3/4a4fac0388')">
-                <a href=""> Cálculo de la velocidad del último árbol </a>
-              </lo>
-            </li>
+            <ul>
+              <li> <lo>  <a  href= "https://trinket.io/python3/4a4fac0388"> Cálculo de la velocidad del último árbol </a> </lo> </li>
+            </ul> 
             <img class="imagen-nav" src="./assets/arbol.png" />
           </ul>
 
           <h3>Calcula la relacion de relacion de transmision de velocidad:</h3>
           <ul>
-            <li>
-              <lo onclick="openWindow('https://trinket.io/python3/26f8efd320')">
-                <a href="">
-                  Cálculo de la relación de transmisión de velocidad total
-                </a>
-              </lo>
-            </li>
+            <ul>
+              <li> <lo>  <a  href= "https://trinket.io/python3/26f8efd320"> Cálculo de la relación de transmisión de velocidad total </a> </lo> </li>
+            </ul> 
+            
             <img class="imagen-nav" src="./assets/velocidad.png" />
           </ul>
 
           <h3>Calculo de diametros:</h3>
           <ul>
-            <li>
-              <lo onclick="openWindow('https://trinket.io/python3/97c7c3799c')">
-                <a href="">
-                  Cálculo del diámetro de la polea de un tren de poleas
-                </a>
-              </lo>
-            </li>
+            <ul>
+              <li> <lo>  <a  href= "https://trinket.io/python3/97c7c3799c"> Cálculo del diámetro de la polea de un tren de poleas </a> </lo> </li>
+            </ul> 
+            
             <img class="imagen-nav" src="./assets/dia.jpg" />
           </ul>
         </ul>
@@ -124,12 +118,19 @@
             <br />
             Solución relación de transmisión del mecanismo i= 0.05
           </p>
-          <button
+
+          <button onclick="openWindow()">Ejercicio de Tren de Poleas </button>
+<script>
+  function openWindow(){
+    window.open('https://trinket.io/python3/128ad3becf');
+  }
+</script>
+          <!-- <button
             class="boton4"
             onclick="openWindow('https://trinket.io/python3/7655860308')"
           >
             Ejercicio tren de poleas
-          </button>
+          </button> -->
         </div>
         <div class="ejercicio3">
           <h4 id="longitud2">¿Que longitud de correa se necesita?</h4>
@@ -153,41 +154,15 @@
             <br />
             #L3 distancia entre los ejes de las poleas
           </p>
-          <div>
-            <button
-              class="boton3"
-              onclick="openWindow('https://trinket.io/python3/8bd8d54743')"
-            >
-              <a> calcular la longitud de correa que se necesita: </a>
-            </button>
+          
+              <button class="boton3"> <a href="https://trinket.io/python3/8bd8d54743"> Calcular la longitud de correa que se necesita: </button> </a>
+            
+            </div>
+            
           </div>
         </div>
 
-        <h4 id="Transicion_circular">
-          a) La relacion de transmicion del mecanismo
-        </h4>
-
-        <h4 id="Transicion_circular">b) La velocidad del eje de salida</h4>
-
-        <h4 id="Transicion_circular">
-          c) Calcula la velocidad del ultimo arbol
-        </h4>
-
-        <img src="fotos/arbol.png" alt="foto de arbol " />
-
-        <img src="fotos/6.jpg" alt="foto de eje_conducido " />
-
-        <h4 id="Transicion_circular">
-          d) Calcula la relacion de transmision de velocidad total
-        </h4>
-
-        <img src="fotos/7.jpg" alt="foto de eje_conducido " />
-
-        <h4 id="Transicion_circular">e) Calcula diametro de polea</h4>
-
-        <img src="fotos/8.jpg" alt="foto de eje_conducido " />
-        <img src="fotos/9.jpg" alt="foto de eje_conducido " />
-
+        <
         <h3>Potencia nominal por correa</h3>
         Dependiendo del tipo de correa se debe seleccionar la ecuación adecuada
         para calcular la potencia. <br />
@@ -222,12 +197,13 @@
         Considere a Pnc como el eje y que se calculará con la ecuación 1 de
         acuerdo con los valores que toma dp como eje x, <br />
         entre los valores de 20 mm a 140 mm. <br />
-        <button
-          class="boton3"
-          onclick="openWindow('https://trinket.io/python3/3727f741a9')"
-        >
-          Ejercicio de Potencia nominal por correa:
-        </button>
+
+<button onclick="openWindow2()">Ejercicio de Potencia Nominal por Correas </button>
+<script>
+  function openWindow2(){
+    window.open('https://trinket.io/python3/128ad3becf');
+  }
+</script>
 
         <p>
           <h4>Selección de una correa plana para un sistema de poleas</h4>
@@ -241,7 +217,7 @@
           D=2R <br />
           d=2r
         </p>
-        
+
         <br />
         <img class="imagen-nav" src="./assets/correaplana.png" />
 
@@ -249,15 +225,15 @@
           B= (D-d)2 /8 <br />
           A=H+ (H2-B)1/2 <br />
           Solución distancia entre los centros de las poleas A= 0.4 m <br /></h4>
-          
+
           <p>
             Cálculo de la longitud de la correa <br />
             D diámetro polea mayor en m <br />
             D diámetro polea menor en m <br />
             A distancia entre centros en m <br />
             L longitud de la correa en m <br />
-            <h4 id="Transicion_circular">L= 1.57 (D+d) + 2A + (D-d)2 /4A</h4> 
-            
+            <h4 id="Transicion_circular">L= 1.57 (D+d) + 2A + (D-d)2 /4A</h4>
+
           </p>
           <p>
             Se puede conseguir una correa comercial de acuerdo con los cálculos
@@ -271,7 +247,7 @@
             evitar la vibración excesiva del lado flojo y debe ser mayor al
             diámetro de la polea mayor. <br />
             Correa cruzada cambia el signo <br />
-            <h4 id="Transicion_circular">= 1.57 (D+d) + 2A + (D-d)2 /4A</h4> 
+            <h4 id="Transicion_circular">= 1.57 (D+d) + 2A + (D-d)2 /4A</h4>
           </p>
           <p>
             Gráfica de longitud de correas contra distancia entre centros de
@@ -314,28 +290,27 @@
       <div id="Engranes" style="display: none">
         <h2>Engranajes:</h2>
 <h4>Que es un engranaje?</h4>
-Un engranaje es un tipo de mecanismo que tiene dos o más ruedas dentadas, que se utiliza para transmitir potencia 
+Un engranaje es un tipo de mecanismo que tiene dos o más ruedas dentadas, que se utiliza para transmitir potencia
 mecánica de un componente a otro.​ Si las dos ruedas son de distinto tamaño, la mayor se denomina corona y la menor piñón.
 
         <ul>
-          <lo onclick="openWindow('https://trinket.io/python3/fdfcca4fb9')">
-            <a href=""> Simulacion de Velocidad de rotacion </a>
-          </lo>
+          <!-- <lo onclick="openWindow('https://trinket.io/python3/fdfcca4fb9')">
+
+          </lo> -->
           <img class="imagen-nav" src="./assets/engranaje 1.gif" />
         </ul>
         <br />
 
         <h2>Simulacion de engranajes simples:</h2>
         <br />
-        <li class="enlace">
-          <a href="#velocidad"> Matriz Denavit–Hartenberg </a>
-        </li>
+
+        <lo>  <a  href= "https://trinket.io/python3/fdfcca4fb9"> Simulacion de Velocidad de rotacion   </a> </lo>
+
         <img class="imagen-nav" src="./assets/maxresdefault.jpg" />
 
-        <li class="enlace">
-          <a href="#velocidad"> relacion de transmision de velocidad </a>
-        </li>
-        se desea transmitir movimiento, con el mismo sentido de giro, entre
+          <h2>Relacion de transmision de Velocidad</H2>
+        <br>
+        Se desea transmitir movimiento, con el mismo sentido de giro, entre
         dos ejes paralelos situados a 60 cm de distancia para ello se
         emplean dos poleas, una motora, de 15 cm de diametro y que tiene el
         eje de entrada unido solidariamente a un motor eletrico que gira a
@@ -343,15 +318,10 @@ mecánica de un componente a otro.​ Si las dos ruedas son de distinto tamaño,
 
         <br />
         <br />
+<h4>VELOCIDAD DE EJE CONDUCIDO</h4>
 
-        <li class="enlace2">
-          <a href="#eje2">Velocidad del eje conducido </a>
-        </li>
         <img class="imagen-nav" src="./assets/descarga.jpg" alt="Eje" />
 
-        <li class="enlace3">
-          <a href="#longitud2">Longitud de correa que se necesita </a>
-        </li>
         <br />
 
         <div class="ejercicio2">
@@ -390,7 +360,8 @@ mecánica de un componente a otro.​ Si las dos ruedas son de distinto tamaño,
             polea mayor es de 450 mm Solución velocidad que gira el eje
             conducido N2 = es 400 rpm
           </p>
-
+          <button class="boton2"> <a href="https://trinket.io/python3/0648df2918"> Calcular la velocidad del eje conducido  </button> </a>
+<!--
           <div>
             <button
               class="boton2"
@@ -398,7 +369,7 @@ mecánica de un componente a otro.​ Si las dos ruedas son de distinto tamaño,
             >
               <a href=""> Calcular la velocidad del eje conducido </a>
             </button>
-          </div>
+          </div> -->
         </div>
 
         <h3>Engranajes</h3>
@@ -422,23 +393,28 @@ mecánica de un componente a otro.​ Si las dos ruedas son de distinto tamaño,
           <br />
 
 
-          <h4>Tren de engranajes simple</h4>
+          <h2>Tren de engranajes simple</h2>
           <img class="imagen-nav" src="./assets/tren compuesto.png"  />
 
         <h4 id="Transicion_circular">Ejemplo 1 Relación de transmisión</h4>
         <img class="imagen-nav" src="./assets/transmision.jpg"  />
-    
+
         <h4 id="Transicion_circular">
           i = i1 *i2 *i3 = z1 z3 z5 / z2 z4 z6 I = (15*20*10)/(45*40*30)
         </h4>
-          Cálculo de la velocidad del eje de salida <br />
+
+          <ul>
+            <li> <lo>  <a  href= "https://trinket.io/python3/128ad3becf">Cálculo de la velocidad del eje de salida </a> </lo> </li>
+          </ul>
+
           i=n_s/n_e <br />
           1/18= ns/2000 ns=2000/18 <br />
           El resultado que debes obtener es salida = 111.11 rpm
 
         <h4 id="Transicion_circular">Ejemplo 3 Numero de dientes</h4>
-        <img class="imagen-nav" src="./assets/dientes.jpg"  />
-        
+        <img class="imagen-nav" src="./assets/dientes.jpg"  /></a>
+        <li><a href="https://trinket.io/python3/53cd13df75">Calculo de numero de dientes</a></li>
+
         <h4 id="Matriz">
           Matriz Denavit–Hartenberg  </h4>
 
@@ -451,7 +427,7 @@ mecánica de un componente a otro.​ Si las dos ruedas son de distinto tamaño,
           llamados parámetros DH) son los cuatro parámetros asociados con una
           convención particular.
           <img class="imagen-nav" src="./assets/Algoritmo+Denavit-hartenberg.jpg"  />
-       
+
       </div>
 
       <div id="Evaluaciones" style="display: none">
